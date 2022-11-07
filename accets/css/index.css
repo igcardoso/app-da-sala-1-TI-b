@@ -13,5 +13,5 @@
 
 #main-title {
     font-size: 5rem;
-    background-color: var(--main-color-text);
+    color: var(--main-color-text);
 }

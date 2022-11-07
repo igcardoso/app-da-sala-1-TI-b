@@ -4,9 +4,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+.container-titles {
+    margin: 4%;
 }
 
 #main-title {
-    font-family: sans-serif;
     font-size: 5rem;
+    background-color: var(--main-color-text);
 }

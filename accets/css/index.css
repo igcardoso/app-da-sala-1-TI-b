@@ -12,6 +12,7 @@
 }
 
 #main-title {
+    margin-bottom: 2%;
     font-size: 2rem;
     color: var(--main-color-text);
 }

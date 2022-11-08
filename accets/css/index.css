@@ -16,3 +16,11 @@
     font-size: 5vh;
     color: var(--main-color-text);
 }
+
+#bar-navigatin {
+    border: 2px solid #000;
+    width: 100%;
+    left: 0; right: 0;
+    top: 0;
+    margin: 0;
+}

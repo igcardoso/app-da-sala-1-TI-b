@@ -24,6 +24,7 @@ header .container-titles #main-title {
 
 header .container-titles #sub-title {
     font-size: 2vh;
+    color: #d3d3d3;
 }
 
 header #bar-navigation {

@@ -12,13 +12,13 @@
 }
 
 #main-title {
-    margin-bottom: 2%;
+    margin-bottom: 4vh;
     font-size: 5vh;
     color: var(--main-color-text);
 }
 
 #bar-navigation {
-    padding: 2%;
+    padding: 4vh;
     padding-left: 4vh;
     border: 2px solid #000;
     width: 100%;

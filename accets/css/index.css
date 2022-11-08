@@ -19,6 +19,7 @@
 
 #bar-navigatin {
     padding: 2vh;
+    padding-left: 2vh;
     border: 2px solid #000;
     width: 100%;
     left: 0; right: 0;
@@ -28,5 +29,4 @@
 
 #bar-navigation .options {
     display: inline-block;
-    margin-left: 2rem;
 }

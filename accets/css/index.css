@@ -23,7 +23,7 @@ header #main-title {
 }
 
 header #sub-title {
-    font-size: large;
+    font-size: 2vh;
 }
 
 header #bar-navigation {

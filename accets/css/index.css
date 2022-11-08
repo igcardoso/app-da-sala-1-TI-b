@@ -7,8 +7,12 @@
     font-family: sans-serif;
 }
 
+header {
+    padding-left: 10vh;
+}
+
 .container-titles {
-    padding: 4vh;
+    
 }
 
 #main-title {
@@ -20,7 +24,6 @@
 
 #bar-navigation {
     padding-top: 3vh;
-    padding-left: 10vh;
     width: 100%;
     left: 0; right: 0;
     top: 0;

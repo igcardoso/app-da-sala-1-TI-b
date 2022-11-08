@@ -27,7 +27,7 @@
     margin: 0;
 }
 
-#bar-navigation .options {
+#bar-navigation button {
     background: 0;
     display: inline-block;
 }

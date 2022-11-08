@@ -11,18 +11,22 @@ header {
     padding-left: 10vh;
 }
 
-.container-titles {
+header .container-titles {
     margin-top: 20vh;
 }
 
-#main-title {
+header #main-title {
     margin-bottom: 2vh;
     font-size: 8.5vh;
     max-width: 50vh;
     color: var(--main-color-text);
 }
 
-#bar-navigation {
+header #sub-title {
+    font-size: large;
+}
+
+header #bar-navigation {
     padding-top: 3vh;
     width: 100%;
     left: 0; right: 0;
@@ -30,7 +34,7 @@ header {
     margin: 0;
 }
 
-#bar-navigation .options {
+header #bar-navigation .options {
     background: 0;
     border: 0;
     display: inline-block;

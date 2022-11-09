@@ -12,9 +12,7 @@ body {
 }
 
 .svg-css {
-    position: absolute;
-    left: auto;
-    right: 2rem;
+    display: none;
 }
 
 header {

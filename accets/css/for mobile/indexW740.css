@@ -6,7 +6,7 @@ body {
 }
 
 .svg-css {
-    display: 0;
+    display: none;
 }
 
 header {

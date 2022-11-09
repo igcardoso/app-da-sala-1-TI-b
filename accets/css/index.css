@@ -19,7 +19,7 @@ header .container-titles #main-title {
     margin-bottom: 2vh;
     font-size: 8.5vh;
     max-width: 50vh;
-    color: var(--main-color-text);
+    color: var(--main-text-color);
 }
 
 header .container-titles #sub-title {
@@ -47,5 +47,5 @@ header .enter-button {
     border-radius: 8em;
     border: 0;
     background: #000000;
-
+    color: var(--second-text-color);
 }

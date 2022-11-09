@@ -41,3 +41,11 @@ header #bar-navigation .options {
     display: inline-block;
     margin-right: 2.8rem;
 }
+
+header .enter-button {
+    padding: 1rem;
+    border-radius: 8em;
+    border: 0;
+    background: #000000;
+
+}

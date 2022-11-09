@@ -1,5 +1,50 @@
-@charset "utf-8";
+@charset "utf-8"; 
+
+
+body {
+    background: #000000;
+}
 
 header {
     padding-left: 3rem;
 }
+
+header #bar-navigation {
+    padding-top: 1.5rem;
+}
+
+header #bar-navigation .options {
+    color: #ffffff;
+    font-size: 1.6vh;
+    background: 0;
+    border: 0;
+    display: inline-block;
+    margin-right: 2.8rem;
+}
+
+header .container-titles {
+    margin-top: 6rem;
+}
+
+header .container-titles #main-title {
+    color: #ffffff;
+}
+
+header .container-titles #main-title {
+    margin-bottom: 1vh;
+    font-size: 5.5vh;
+    max-width: 30vh;
+}
+
+header .enter-button {
+    margin-top: 1rem;
+    padding: .8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 8em;
+    border: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+

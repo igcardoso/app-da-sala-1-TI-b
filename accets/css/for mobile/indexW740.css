@@ -1,6 +1,8 @@
 @charset "utf-8"; 
 
-
+@media (min-height: 740px), screen and (orientation: portrait)
+{
+    
 body {
     background: #000000;
 }
@@ -41,7 +43,10 @@ header .container-titles #main-title {
 }
 
 header .enter-button {
-    margin-top: 1rem;
+    position: absolute; 
+    top: auto;
+    bottom: 0;
+    margin: auto;
     padding: .8rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -49,6 +54,7 @@ header .enter-button {
     border: 0;
     background: #ffffff;
     color: #000000;
+}
 }
 
 

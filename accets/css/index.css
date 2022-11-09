@@ -8,7 +8,7 @@
 }
 
 header {
-    padding-left: 2rem;
+    padding-left: 5rem;
 }
 
 header .container-titles {
@@ -28,7 +28,7 @@ header .container-titles #sub-title {
 }
 
 header #bar-navigation {
-    padding-top: 3rem;
+    padding-top: 2rem;
     width: 100%;
     left: 0; right: 0;
     top: 0;

@@ -8,11 +8,11 @@
 }
 
 header {
-    padding-left: 10vh;
+    padding-left: 10rem;
 }
 
 header .container-titles {
-    margin-top: 20vh;
+    margin-top: 20rem;
 }
 
 header .container-titles #main-title {
@@ -28,7 +28,7 @@ header .container-titles #sub-title {
 }
 
 header #bar-navigation {
-    padding-top: 3vh;
+    padding-top: 3rem;
     width: 100%;
     left: 0; right: 0;
     top: 0;
@@ -39,5 +39,5 @@ header #bar-navigation .options {
     background: 0;
     border: 0;
     display: inline-block;
-    margin-right: 2.8vh;
+    margin-right: 2.8rem;
 }

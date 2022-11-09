@@ -16,16 +16,7 @@ header {
 }
 
 header #bar-navigation {
-    padding-top: 1.5rem;
-}
-
-header #bar-navigation .options {
-    color: #ffffff;
-    font-size: 1.6vh;
-    background: 0;
-    border: 0;
-    display: inline-block;
-    margin-right: 2.8rem;
+    display: none;
 }
 
 header .container-titles {

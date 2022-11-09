@@ -43,9 +43,9 @@ header .container-titles #main-title {
 }
 
 header .enter-button {
-    position: absolute; 
-    top: auto;
-    bottom: 0;
+    position: absolute;
+    left: auto; right: 1rem;
+    top: auto; bottom: 2rem;
     margin: auto;
     padding: .8rem;
     padding-left: 1rem;

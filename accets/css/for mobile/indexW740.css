@@ -5,6 +5,10 @@ body {
     background: #000000;
 }
 
+.svg-css {
+    display: 0;
+}
+
 header {
     padding-left: 3rem;
 }

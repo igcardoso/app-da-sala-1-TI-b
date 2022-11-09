@@ -1,6 +1,6 @@
 @charset "utf-8"; 
 
-@media (min-height: 740px), screen and (orientation: portrait)
+@media (max-height: 740px), screen and (orientation: portrait)
 {
     
 body {

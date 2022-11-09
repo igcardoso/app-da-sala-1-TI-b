@@ -7,7 +7,7 @@ body {
     background: #000000;
 }
 
- .banner-image {
+ #banner-image {
     display: block;
 }
 
@@ -24,7 +24,7 @@ header #bar-navigation {
 }
 
 header .container-titles {
-    margin-top: 4rem;
+    margin-top: 0;
 }
 
 header .container-titles #main-title {

@@ -11,6 +11,12 @@ body {
     background: #ffffff;
 }
 
+.svg-css {
+    position: absolute;
+    left: auto;
+    right: 2rem;
+}
+
 header {
     padding-left: 5rem;
 }

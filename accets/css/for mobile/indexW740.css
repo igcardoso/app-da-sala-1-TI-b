@@ -3,6 +3,8 @@
 @media (max-height: 915px) and (max-width: 419px)
 {
 */
+@media (max-width: 600px) {
+
 body {
     background: #000000;
 }
@@ -51,7 +53,6 @@ header .enter-button {
     background: #ffffff;
     color: #000000;
 }
-/*
 }
-*/
+
 

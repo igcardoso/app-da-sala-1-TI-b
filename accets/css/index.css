@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding-left: 5rem;
+    padding-left: 12%;
 }
 
 #banner-image {
@@ -52,7 +52,7 @@ header #bar-navigation .options {
     background: 0;
     border: 0;
     display: inline-block;
-    margin-right: 2.8rem;
+    margin-right: 30%;
 }
 
 header .enter-button {

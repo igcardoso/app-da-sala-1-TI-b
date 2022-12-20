@@ -31,7 +31,7 @@ header .container-titles {
 header .container-titles #main-title {
     margin-bottom: 2vh;
     font-size: 48px;
-    max-width: 40%;
+    max-width: 50%;
     color: var(--main-text-color);
 }
 

@@ -1,5 +1,5 @@
-document.getElementById('execCopyCodigoAdm').addEventListener('click', execCopy);
-function execCopy() {
-  document.querySelector("#input").select();
+document.getElementById('execCopyCodigoAdm').addEventListener('click', execCopyCodigoAdm);
+function execCopyCodigoAdm() {
+  document.querySelector("#inputCopyCodigoAdm").select();
   document.execCommand("copy");
 }

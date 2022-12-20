@@ -31,13 +31,14 @@ header .container-titles {
 header .container-titles #main-title {
     margin-bottom: 2vh;
     font-size: 48px;
-    max-width: 50vh;
+    max-width: 40%;
     color: var(--main-text-color);
 }
 
 header .container-titles #sub-title {
     font-size: 15px;
     color: #808080;
+    max-width: 40%;
 }
 
 header #bar-navigation {

@@ -2,4 +2,5 @@ document.getElementById('execCopyCodigoAdm').addEventListener('click', execCopyC
 function execCopyCodigoAdm() {
   document.querySelector("#inputCopyCodigoAdm").select();
   document.execCommand("copy");
+  window.alert("link copiado");
 }

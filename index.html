@@ -162,6 +162,12 @@
   <!-- transition backdrop -->
 
   <script type="text/javascript" charset="utf-8">
+    
+    document.getElementById('execCopyCodigoAdm').addEventListener('click', execCopy);
+function execCopy() {
+  document.querySelector("#inputCopyCodigoAdm").select();
+  document.execCommand("copy");
+}
 
     'use strict';
 

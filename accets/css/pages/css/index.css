@@ -6,6 +6,7 @@
   background-repeat-x: repeat;
   display: none;
   transition: width .5s, background 1s, height 0s;
+  height: 100%;
 }
 
 #home button {

@@ -1,0 +1,61 @@
+@charset "utf-8"; 
+
+@media (max-height: 915px) and (max-width: 419px)
+{
+
+body {
+    background: #ffffff;
+    color: #ffffff;
+}
+
+ #banner-image {
+    height: 45vh;
+    display: block;
+}
+
+.svg-css {
+    display: none;
+}
+
+header {
+    padding-left: 1rem;
+}
+
+header #bar-navigation {
+    display: none;
+}
+
+header .container-titles {
+    margin-top: -2rem;
+}
+
+header .container-titles #main-title {
+    color: #ffffff;
+}
+
+header .container-titles #sub-title{
+  max-width: 80%;
+}
+
+header .container-titles #main-title {
+    margin-bottom: 1vh;
+    font-size: 5.5vh;
+    max-width: 70%;
+}
+
+header .enter-button {
+    position: absolute;
+    left: auto; right: 1rem;
+    top: auto; bottom: 2rem;
+    margin: auto;
+    padding: .8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .8em;
+    border: 0;
+    background: #ffffff;
+    color: #000000;
+}
+}
+
+

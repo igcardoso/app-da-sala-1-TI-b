@@ -1,15 +1,15 @@
 {
-"name": "Only Manifest",
-"short_name: "only_manifest",
+"name": "Infinix UI",
+"short_name: "Infinix",
 "description": "dummy application to demo manifest without SW",
-"start_url": "/index.html",
+"start_url": "https://ifba.netlify.app/index.html",
 "scope: ".",
-"background_color": "#EEE",
-"theme_color": "#4A148C",
-"display": "standalone",
+"background_color": "#FFFFFF",
+"theme_color": "#FFFFFF",
+"display": "fullscreen",
 "orientation": "portrait-primary",
 "dir: "ltr",
-"lang": "en-US",
+"lang": "pt-br",
 "related_applications: [
   {
      "platform": "play",

@@ -1,0 +1,278 @@
+
+
+#home {
+
+  background-image: url('https://st.depositphotos.com/4157421/52183/v/1600/depositphotos_521831432-stock-illustration-hand-draw-chemistry-pattern-on.jpg');
+
+  background-position: center;
+
+  background-size: cover;
+
+  background-repeat-x: repeat;
+
+  display: none;
+
+  transition: width .5s, background 1s, height 0s;
+
+  height: 100vh;
+
+}
+
+
+
+#home button {
+
+  background: 0;
+
+  border: 0;
+
+}
+
+
+
+#home .side-menu {
+
+  text-align: center;
+
+  padding-left: 3%;
+
+  padding-right: 3%;
+
+  width: 15%;
+
+  height: 100%;
+
+  border-top-right-radius: 1em;
+
+  background: #ffffff70;
+
+  backdrop-filter: blur(15px);
+
+}
+
+
+
+#home .side-menu .title-section label {
+
+  font-weight: 800;
+
+}
+
+
+
+#home .side-menu .title-section {
+
+  font-size: 11px;
+
+}
+
+
+
+#home .side-menu .o i {
+
+  margin-right: 20px;
+
+}
+
+
+
+#home .side-menu .o {
+
+  font-size: 14px;
+
+}
+
+
+
+#home .side-menu .options {
+
+  width: 100%;
+
+  text-align: left;
+
+  padding-left: 3vh;
+
+  padding: 4%;
+
+  color: rgb(88,88,88);
+
+}
+
+
+
+#home .side-menu .op7 {
+
+  border-top-left-radius: .9em;
+
+  border-top-right-radius: .9em;
+
+}
+
+
+
+#home .side-menu .op9 {
+
+  border-bottom-left-radius: .9em;
+
+  border-bottom-right-radius: .9em;
+
+}
+
+
+
+#home .side-menu .op10 {
+
+  border-radius: .9em;
+
+  font-size: 11px;
+
+  padding: 5px;
+
+}
+
+
+
+#home .side-menu .options2 a {
+
+  font-weight: 700;
+
+  color: #000000;
+
+  text-decoration: none;
+
+}
+
+
+
+#home .side-menu .options2 {
+
+  width: 100%;
+
+  text-align: left;
+
+  padding-left: 3vh;
+
+  padding: 4%;
+
+  color: #000000;
+
+  background: #ffffff;
+
+  font-size: 14px;
+
+}
+
+
+
+#home .side-menu .options3 {
+
+  width: 100%;
+
+  text-align: left;
+
+  padding-left: 3vh;
+
+  padding: 4%;
+
+  color: #000000;
+
+  background: #ffffff;
+
+}
+
+
+
+#home .side-menu .op2 {
+
+  background: #000000;
+
+  color: #ffffff;
+
+  border-radius: 0.8em;
+
+}
+
+
+
+#home .side-menu .divisor {
+
+  background: rgba(87,87,87,0.197);
+
+  border: 0;
+
+  width: 100%;
+
+  height: 1px;
+
+}
+
+
+
+#home .container-user-info {
+
+  padding-top: 2rem;
+
+}
+
+
+
+#home .container-user-info button {
+
+  display: inline;
+
+}
+
+
+
+#home .button-img-user {
+
+  background-image: url(../../../../media/1 Sem Título_20220823150850.png);
+
+  background-position: center;
+
+  background-size: cover;
+
+  margin-top: 10px;
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 8em;
+
+}
+
+
+
+#home .button-img-user .img-user {
+
+  display: none;
+
+}
+
+
+
+#home .container-user-info .name-user {
+
+  bottom: 0;
+
+  font-size: 11px;
+
+  text-align: left;
+
+  color: green;
+
+}
+
+
+
+#home .container-user-info .name-user label {
+
+  color: #000000;
+
+  font-size: 18px;
+
+  font-weight: 800;
+
+}
+

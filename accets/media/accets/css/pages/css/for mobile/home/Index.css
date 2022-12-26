@@ -56,6 +56,7 @@
   padding: 6%;
   display: flex;
   background: #000000;
+  text-align: left;
 }
 
 #notations .containment-card-notations .cards .container .topEl {

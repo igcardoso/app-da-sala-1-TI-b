@@ -174,7 +174,7 @@
   left: -1000%;
   width: 100%;
   height: 100vh;
-  animation: loading 0s;
+  animation: loading 8s;
   background: #ffffff;
   text-align: center;
   z-index: 200;

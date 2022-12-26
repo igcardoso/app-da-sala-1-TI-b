@@ -3,7 +3,7 @@
     "background_color": "#ffffff",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "../index.html",
+    "start_url": "https://ifba-1tib.netlify.app/index.html",
     "name": "Infinix UI",
     "short_name": "Infinix",
     "description": "App para comunicados, atividades e outras uliliza\u00e7\u00f5es educacionais ",

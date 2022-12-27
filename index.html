@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- MANIFEST PWA -->
 
-  <link rel="manifest" href="manifest/manifest.json">
+  <link rel="manifest" href="manifest.json">
   <!-- VARIABLES CSS -->
   <link rel="stylesheet" href="accets/css/variables/index.css">
   <!-- OWL CAROUSEL -->
@@ -423,6 +423,26 @@
 <!-- transition backdrop -->
 
 <script type="text/javascript" charset="utf-8">
+if('serviceWorker' in navigator) {
+
+  navigator.serviceWorker
+
+  .register('sw.js')
+
+  .then(function() {
+
+    console.log("Service Worker registered successfully");
+
+  })
+
+  .catch(function() {
+
+    console.log("Service worker registration failed")
+
+  });
+
+}
+
 
 'use strict';
 

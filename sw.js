@@ -10,7 +10,7 @@ self.addEventListener('install', function (event) {
         '/index.css',
         '/index.js',
         '/manifest.js',
-        '/vendor.js',
+        '/jquery.min.js',
       ]);
     })
   )

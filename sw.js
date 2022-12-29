@@ -7,9 +7,11 @@ const CACHE_NAME = 'cool-cache';
 
 const PRECACHE_ASSETS = [
 
-    '/assets/',
+    './index.html',
 
-    '/src/'
+    './app.css',
+    
+    './jquery.min.js'
 
 ]
 

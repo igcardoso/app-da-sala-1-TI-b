@@ -377,13 +377,30 @@
 
 // SERVICE WORKER
 
-if (typeof navigator.serviceWorker !== 'undefined') {
+window.addEventListener('load', ()=>{
 
-    navigator.serviceWorker.register('sw.js')
+    registerSW()
 
-  }
+})
+
+async function registerSW(){
+
+    if('serviceWorker' in navigator){
+
+        try{
+
+            await navigator.serviceWorker.register('./sw.js')
+
+        } catch(e){
+
+            console.log(`SW registration failed`);
+
+        }
+
+    }
+
 }
-
+  
 'use strict';
 
 var onTop = false;

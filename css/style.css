@@ -189,7 +189,7 @@
 }
 
 #schedules .containment-gradient {
-  background-image: url('../media/1 Sem Título_20221224203650.png');
+  background-image: url('../images/20221224203650.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;
@@ -226,7 +226,7 @@
 
 #schedules .top-menu .user {
   position: absolute;
-  background-image: url('../media/IMG_20221224_171140.jpg');
+  background-image: url('../images/IMG_20221224_171140.jpg');
   background-position: center;
   background-size: cover;
   width: 47px;
@@ -398,7 +398,7 @@
 
 #schedules .containment-card-schedules .logo-schedules {
   background: none;
-  background-image: url('../media/icon-multiple.png');
+  background-image: url('../images/icon-multiple.png');
   background-position: center;
   background-size: cover;
   width: 32px;

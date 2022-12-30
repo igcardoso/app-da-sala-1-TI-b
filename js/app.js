@@ -1,58 +1,35 @@
-const container = document.querySelector(".container");
-const coffees = [
-  {
-    name: "Perspiciatis",
-    image: "images/coffee1.jpg"
-  },
-  {
-    name: "Voluptatem",
-    image: "images/coffee2.jpg"
-  },
-  {
-    name: "Explicabo",
-    image: "images/coffee3.jpg"
-  },
-  {
-    name: "Rchitecto",
-    image: "images/coffee4.jpg"
-  },
-  {
-    name: " Beatae",
-    image: "images/coffee5.jpg"
-  },
-  {
-    name: " Vitae",
-    image: "images/coffee6.jpg"
-  },
-  {
-    name: "Inventore",
-    image: "images/coffee7.jpg"
-  },
-  {
-    name: "Veritatis",
-    image: "images/coffee8.jpg"
-  },
-  {
-    name: "Accusantium",
-    image: "images/coffee9.jpg"
+/*  ********** Online / Offline Detection **********  */
+
+// Request a small image at an interval to determine status
+// ** Get a 1x1 pixel image here: http://www.1x1px.me/
+// ** Use this code with an HTML element with id="status"
+
+const checkOnlineStatus = async () => {
+  try {
+    const online = await fetch("/1pixel.png");
+    return online.status >= 200 && online.status < 300; // either true or false
+  } catch (err) {
+    return false; // definitely offline
   }
-];
-const showCoffees = () => {
-  let output = "";
-  coffees.forEach(
-    ({ name, image }) =>
-      (output += `
-              <div class="card">
-                <img class="card--avatar" src=${image} />
-                <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Taste</a>
-              </div>
-              `)
-  );
-  container.innerHTML = output;
 };
 
-document.addEventListener("DOMContentLoaded", showCoffees);
+setInterval(async () => {
+  const result = await checkOnlineStatus();
+  const statusDisplay = document.getElementById("status");
+  statusDisplay.textContent = result ? "Online" : "OFFline";
+}, 3000); // probably too often, try 30000 for every 30 seconds
+
+// forgot to include async load event listener in the video! 
+window.addEventListener("load", async (event) => {
+  const statusDisplay = document.getElementById("status");
+  statusDisplay.textContent = (await checkOnlineStatus())
+    ? "Online"
+    : "OFFline";
+});
+
+if (status == "OFFline") {
+    window.location.href = "http://www.devmedia.com.br";
+}
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {

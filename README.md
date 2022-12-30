@@ -3,7 +3,7 @@
 
 # Preview
 
-!["How To Create Responsive Movie Website Using HTML CSS And jQuery"](https://raw.githubusercontent.com/igcardoso/app-da-sala-1-TI-b/main/images/preview/Screenshot_2022-12-24-22-39-58-564_io.kodular.Ioliveiracardoso76.Multiplex.jpg Site prar estudantes do IFBA Camaçari Bahia")
+!["How To Create Responsive Movie Website Using HTML CSS And jQuery"](https://raw.githubusercontent.com/igcardoso/app-da-sala-1-TI-b/main/images/preview/Screenshot_2022-12-24-22-39-58-564_io.kodular.Ioliveiracardoso76.Multiplex.jpg "Site prar estudantes do IFBA Camaçari Bahia")
 
 # Social networks 
 

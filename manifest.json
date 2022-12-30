@@ -1,10 +1,10 @@
 {
-  "name": "Dev'Coffee",
-  "short_name": "DevCoffee",
+  "name": "Infinix OS",
+  "short_name": "Finix OS",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
-  "theme_color": "#db4938",
+  "theme_color": "rgb(0,0,0)",
   "orientation": "portrait-primary",
   "icons": [
     {
@@ -47,5 +47,15 @@
       "type": "image/png",
       "sizes": "512x512"
     }
+  ],
+  "description": "O app foi desenvolvido no intuito de auxiliar os estudantes com matrícula ativa no Instituto Federal da Bahia, localizado Camaçari.",
+  "lang": "pt",
+  "dir": "ltr",
+  "display_override": [
+    "standalone"
+  ],
+  "categories": [
+    "education",
+    "lifestyle"
   ]
 }

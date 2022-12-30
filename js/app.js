@@ -3,7 +3,7 @@ function isRunningStandalone() {
 }
 ...
 if (isRunningStandalone()) {
-   /* código que sera executado se o site estiver em modo standalone */
+  window.alert("Olá ")
 }
 
 if ("serviceWorker" in navigator) {

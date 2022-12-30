@@ -1,3 +1,10 @@
+function isRunningStandalone() {
+    return (window.matchMedia('(display-mode: standalone)').matches);
+}
+...
+if (isRunningStandalone()) {
+   /* código que sera executado se o site estiver em modo standalone */
+}
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {

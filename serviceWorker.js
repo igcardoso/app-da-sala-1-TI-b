@@ -1,4 +1,4 @@
-const staticDevCoffee = "infinix-v2";
+const staticDevCoffee = "infinix-v1";
 const assets = [
   "/",
   "/index.html",

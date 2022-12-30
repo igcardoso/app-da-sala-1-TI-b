@@ -1,10 +1,4 @@
-function isRunningStandalone() {
-    return (window.matchMedia('(display-mode: standalone)').matches);
-}
-...
-if (isRunningStandalone()) {
-  window.alert("Olá ")
-}
+
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {

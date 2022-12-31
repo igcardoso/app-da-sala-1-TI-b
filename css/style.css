@@ -163,7 +163,7 @@ body {
   border-radius: 8em;
 }
 
-#transition-animation { 
+#home .bottom-menu .transition-animation { 
   position: absolute;
   top: 15%;
   left: 4.8%;

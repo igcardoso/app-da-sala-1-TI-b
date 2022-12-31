@@ -42,7 +42,7 @@ function select1() {
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
   
-  document.getElementById("transition-animation").style.left = "4.8%"
+  document.getElementById("transition-animation").style.left = "4.7%"
 }
 
 function select2() {
@@ -123,7 +123,7 @@ function backselect() {
   document.getElementById("bottomop4").style.display = "inline"
   document.getElementById("containment-remaining-buttons").style.display = "none"
   
-  document.getElementById("transition-animation").style.left = "4.8%"
+  document.getElementById("transition-animation").style.left = "4.7%"
 }
 
 function select5() {

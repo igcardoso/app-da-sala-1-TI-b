@@ -1,4 +1,3 @@
-importScripts("https://progressier.com/client/sw.js?id=51DRrEJpeWZrzZgf6c7m");
 
 const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [

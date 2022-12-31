@@ -52,7 +52,7 @@ body {
   width: 100%;
   height: 100vh;
   animation: loading 3s;
-  background: #ffffff;
+  background: #000026;
   text-align: center;
   z-index: 200;
 }
@@ -69,7 +69,7 @@ body {
   width: 100%;
   height: 100vh;
   animation: loading 0.4s;
-  background: #ffffff;
+  background: #000026;
   z-index: 55;
 }
 
@@ -183,7 +183,7 @@ body {
 @media /*(max-height: 915px) and (max-width: 419px)*/ (max-width: 900px) {
   
 #schedules {
-  background: #ffffff;
+  background: #000026;
   padding-top: 120px;
   display: block;
 }

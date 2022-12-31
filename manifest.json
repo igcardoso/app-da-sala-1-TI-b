@@ -8,7 +8,7 @@
   "orientation": "portrait-primary",
   "scope": "https://infinex-os.netlify.app/",
   "prefer_related_applications": false,
-  "shortcuts" : [
+  "shortcuts": [
   {
     "name": "Mooodle",
     "url": "https://ava.ifba.edu.br/course/view.php?id=4940",

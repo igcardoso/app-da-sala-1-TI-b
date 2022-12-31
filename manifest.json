@@ -74,7 +74,7 @@
     }
   ],
   "description": "O app foi desenvolvido no intuito de auxiliar os estudantes com matrícula ativa no Instituto Federal da Bahia, localizado Camaçari.",
-  "lang": "pt",
+  "lang": "pt-br",
   "dir": "ltr",
   "display_override": [
     "standalone"

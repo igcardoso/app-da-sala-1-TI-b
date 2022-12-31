@@ -1,5 +1,5 @@
 
-const staticDevCoffee = "dev-coffee-site-v1";
+const staticDevCoffee = "dev-coffee-site-v2";
 const assets = [
   "/",
   "/index.html",

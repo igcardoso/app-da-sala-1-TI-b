@@ -27,6 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.appendChild(div);
 }, false);
 
+document.addEventListener('DOMContentLoaded', function() {
+    var div = document.createElement('h1');
+    div.innerHTML = 'Ops! Parece que voce está offline';
+    div.className = 'text';
+ 
+    document.getElementById("offline").appendChild(h1);
+}, false);
+
 let pag1 = document.getElementById("bottomop1")
 let pag2 = document.getElementById("bottomop2")
 let pag3 = document.getElementById("bottomop3")

@@ -10,10 +10,9 @@ if ("serviceWorker" in navigator) {
 window.addEventListener("beforeinstallprompt", function(event) {
   event.userChoice.then(function(result) {
     if (result.outcome == "dismissed") {
-      // Usuário dispensou o banner, enviar para o nosso analytics
+      window.alert("a bom?")
     } else {
-      // User accepted! Send to analytics
-      // Usuário aceitou o banner, enviar para o nosso analytics
+      window.alert("e sério?")
     }
   });
 });

@@ -256,7 +256,8 @@ body {
   margin-left: 20px;
   margin-bottom: 4px;
   z-index: 1;
-  font-family: 'Anybody', cursive;
+  /*font-family: 'Anybody', cursive;*/
+  font-family: 'Relaway', sans-serif;
 }
 
 #schedules .sub-title-schedules {

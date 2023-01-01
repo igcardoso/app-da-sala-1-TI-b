@@ -127,6 +127,10 @@ body {
   display: none;
 }
 
+#containment-remaining-buttons {
+  display: none;
+}
+
 #home .bottom-menu-containment {
   position: fixed;
   top: auto; bottom: 20px;

@@ -10,15 +10,43 @@
   "prefer_related_applications": false,
   "shortcuts": [
   {
-    "name": "Sobre Everton Strack",
-    "short_name": "Sobre",
-    "description": "Mais sobre Everton Strack, Desenvolvedor Front-end, aspirante a Ux/UI Designer e Co-Fundador da UFA!.",
-    "url": "/sobre",
+    "name": "Mooodle",
+    "short_name": "Mooodle",
+    "url": "https://ava.ifba.edu.br/course/view.php?id=4940",
+    "description": "Abra os sites importantes",
     "icons": [
-      { 
-        "src": "images/icons/icon-192x192.png", 
-        "sizes": "192x192" 
-      }
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    }
+    ]
+  },
+  {
+    "name": "Suap",
+    "short_name": "Suap",
+    "url": "https://suap.ifba.edu.br/accounts/login/?next=/",
+    "icons": [
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    }
+    ]
+  },
+  {
+    "name": "Classroom",
+    "short_name": "Classroom",
+    "url": "https://classroom.google.com/u/0/",
+    "icons": [
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    }
     ]
   }
 ],

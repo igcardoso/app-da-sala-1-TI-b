@@ -15,13 +15,11 @@
  position: fixed;
  top: 0;
  left: 0;
- width: 100vh;
+ width: 100%;
  height: 100%;
  z-index: 200;
  text-align: center;
  padding-top: 50px;
- backdrop-filter: blur(15px);
- background: rgba(255,255,255,0.054);
 }
 
 .offlinePage .text {

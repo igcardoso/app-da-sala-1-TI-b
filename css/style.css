@@ -372,14 +372,14 @@ body {
 
 #schedules .containment-title-page .title-page-card {
   font-size: 16.1px;
-  font-weight: 600;
+  font-weight: 700;
   color: #000000;
   margin-left: 20px;
 }
 
 #schedules .inscription-title {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   color: rgba(0,0,0,0.282);
   margin-right: 8px;
 }

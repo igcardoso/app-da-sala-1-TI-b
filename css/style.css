@@ -11,6 +11,11 @@
   scroll-behavior: smooth;
 }
 
+.offlinePage {
+  background: red;
+  color: #ffffff;
+}
+
 body {
   font-family: Sans-Serif;
   background: #EDEFEE;

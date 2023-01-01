@@ -23,6 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
   div.innerHTML = 'Ops! Parece que voce está offline';
   div.className = 'offlinePage';
 
+  document.body.appendChild(div);
+}, false);
+
+document.addEventListener('DOMContentLoaded', function() {
   var div = document.createElement('h1');
   div.innerHTML = 'Ops! Parece que voce está offline';
   div.className = 'text';

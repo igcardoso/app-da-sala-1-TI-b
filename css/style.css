@@ -12,8 +12,17 @@
 }
 
 .offlinePage {
-  background: red;
-  color: #ffffff;
+ position: absolute;
+ height: 100vh;
+ width: 100%;
+ z-index: 200;
+ text-align: center;
+ padding-top: 50px;
+ backdrop-filter: blur(15px);
+}
+
+.offlinePage .text {
+  color: #000000;
 }
 
 body {

@@ -188,6 +188,7 @@ body {
   background: #EDEFEE;
   padding-top: 120px;
   display: block;
+  height: 100vh;
 }
 
 #schedules .containment-gradient {
@@ -483,6 +484,10 @@ body {
 
 /*COMUNICADOS*/
 
+#notations {
+  height: 100vh;
+}
+
 #notations .containment-title {
   position: fixed;
   top: 20px;
@@ -639,6 +644,10 @@ body {
 
 
 /*FERRAMENTAS*/
+
+#websites {
+  height: 100vh;
+}
 
   #websites .containment-title {
     position: fixed;

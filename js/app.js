@@ -14,7 +14,7 @@ window.addEventListener('online', () => {
     document.getElementById("offline").style.display = "none"
 });
 window.addEventListener('offline', () => {
-    document.getElementById("home").style.display = "none"
+    document.getElementById("home").style.display = "block"
     document.getElementById("offline").style.display = "block"
 });
 

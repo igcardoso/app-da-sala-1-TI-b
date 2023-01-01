@@ -25,8 +25,7 @@ window.addEventListener('online', () => {
   document.getElementById("offline").style.display = "none"
 });
 window.addEventListener('offline', () => {
-  document.getElementById("home").style.display = "none"
-  document.getElementById("offline").style.display = "block"
+  window.location = "offline.html"
 });
 
 let pag1 = document.getElementById("bottomop1")

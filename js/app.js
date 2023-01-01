@@ -7,16 +7,19 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+// análise de instalação da pwa pelos usuários
+
+/*
 window.addEventListener("beforeinstallprompt", function(event) {
   event.userChoice.then(function(result) {
     if (result.outcome == "dismissed") {
-      window.alert("a bom?")
+      // Usuário dispensou o banner, enviar para o nosso analytics
     } else {
-      window.alert("e sério?")
+      // Usuário aceitou o banner, enviar para o nosso analytics
     }
   });
 });
-
+*/
 window.addEventListener('online', () => {
   document.getElementById("home").style.display = "block"
   document.getElementById("offline").style.display = "none"

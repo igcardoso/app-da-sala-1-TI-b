@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "EDEFEE",
-  "theme_color": "rgba(0,0,0,0.098)",
+  "theme_color": "#dedede",
   "orientation": "portrait-primary",
   "scope": "https://infinex-os.netlify.app/",
   "prefer_related_applications": false,

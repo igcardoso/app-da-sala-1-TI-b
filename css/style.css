@@ -53,7 +53,7 @@ body {
   width: 100%;
   height: 100vh;
   animation: loading 3s;
-  background: #ffffff;
+  background: #EDEFEE;
   text-align: center;
   z-index: 200;
 }
@@ -70,7 +70,7 @@ body {
   width: 100%;
   height: 100vh;
   animation: loading 0.4s;
-  background: #ffffff;
+  background: #EDEFEE;
   z-index: 55;
 }
 
@@ -115,7 +115,7 @@ body {
   
 #home {
   display: block;
-  background: #ffffff;
+  background: #EDEFEE;
   transition: width .5s, background 1s, height 0s;
   height: 100vh;
 }
@@ -182,7 +182,7 @@ body {
 /*PAGINA INICIAL*/
 
 #schedules {
-  background: #ffffff;
+  background: #EDEFEE;
   padding-top: 120px;
   display: block;
 }
@@ -202,7 +202,7 @@ body {
 
 #schedules .containment-gradient .gradient {
   background: rgba(0,0,0,);
-  background-image: linear-gradient(to bottom,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) .2%, rgb(255,255,255) 100%);
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) .2%, #EDEFEE 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -213,7 +213,7 @@ body {
 
 #schedules .containment-gradient .gradient2 {
   background: rgba(0,0,0,);
-  background-image: linear-gradient(to left,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 2%, rgb(255,255,255) 100%);
+  background-image: linear-gradient(to left,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 2%, #EDEFEE 100%);
   position: absolute;
   top: 0;
   left: 0;

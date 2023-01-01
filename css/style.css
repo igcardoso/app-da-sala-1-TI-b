@@ -19,7 +19,7 @@
  text-align: center;
  padding-top: 50px;
  backdrop-filter: blur(15px);
- background: #ffffff4e;
+ background: rgba(255,255,255,0.054);
 }
 
 .offlinePage .text {

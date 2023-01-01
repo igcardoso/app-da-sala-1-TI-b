@@ -9,6 +9,12 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+window.addEventListener('online', () => {
+    console.log("Ficou online!")
+});
+window.addEventListener('offline', () => {
+    console.log("Ficou offline!")
+});
 
 let pag1 = document.getElementById("bottomop1")
 let pag2 = document.getElementById("bottomop2")

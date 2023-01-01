@@ -371,7 +371,6 @@ body {
 }
 
 #schedules .containment-title-page .title-page-card {
-  font-family: Tahoma;
   font-size: 16.1px;
   font-weight: 500;
   color: #000000;
@@ -497,7 +496,6 @@ body {
   padding: 10px 0 10px 0;
   margin: auto;
   color: rgba(0,0,0,0.582);
-  font-weight: 500;
   border-radius: .8em;
   background: rgba(219,219,219,0.612);
   backdrop-filter: blur(15px);

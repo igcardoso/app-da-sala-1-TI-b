@@ -21,10 +21,12 @@ window.addEventListener("beforeinstallprompt", function(event) {
 });
 */
 window.addEventListener('online', () => {
-  window.location = "index.html"
+  document.getElementById("home").style.display = "block"
+  document.getElementById("offline").style.display = "none"
 });
 window.addEventListener('offline', () => {
-  window.location = "offline.html"
+  document.getElementById("home").style.display = "none"
+  document.getElementById("offline").style.display = "block"
 });
 
 let pag1 = document.getElementById("bottomop1")

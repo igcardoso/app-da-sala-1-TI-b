@@ -21,8 +21,7 @@ window.addEventListener("beforeinstallprompt", function(event) {
 });
 */
 window.addEventListener('online', () => {
-  document.getElementById("home").style.display = "block"
-  document.getElementById("offline").style.display = "none"
+  window.location = "index.html"
 });
 window.addEventListener('offline', () => {
   window.location = "offline.html"

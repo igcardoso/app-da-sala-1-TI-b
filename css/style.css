@@ -379,7 +379,7 @@ body {
 
 #schedules .inscription-title {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   color: rgba(0,0,0,0.282);
   margin-right: 8px;
 }
@@ -458,7 +458,7 @@ body {
 
 #schedules .containment-card-schedules .title-section {
   margin-top: 4%;
-  font-weight: 700;
+  font-weight: 800;
   color: #000000;
 }
 

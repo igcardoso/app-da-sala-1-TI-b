@@ -257,7 +257,7 @@ body {
   margin-bottom: 4px;
   z-index: 1;
   /*font-family: 'Anybody', cursive;*/
-  font-family: 'Relaway', sans-serif;
+  font-family: 'Releway', sans-serif;
 }
 
 #schedules .sub-title-schedules {
@@ -268,6 +268,7 @@ body {
   max-width: 70%;
   font-size: 13px;
   z-index: 1;
+  font-family: 'Raleway', sans-serif;
 }
 
 #schedules .divisor {

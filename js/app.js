@@ -1,29 +1,37 @@
-
-
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("/serviceWorker.js")
-      .then(res => console.log("service worker registered"))
-      .catch(err => console.log("service worker not registered", err));
+    .register("/serviceWorker.js")
+    .then(res => console.log("service worker registered"))
+    .catch(err => console.log("service worker not registered", err));
   });
 }
 
+
+window.addEventListener('online', () => {
+  document.getElementById("home").style.display = "block"
+  document.getElementById("offline").style.display = "none"
+});
+window.addEventListener('offline', () => {
+  document.getElementById("home").style.display = "none"
+  document.getElementById("offline").style.display = "block"
+});
+
 document.addEventListener('DOMContentLoaded', function() {
-    var div = document.createElement('div');
-    div.id = 'offline';
-    div.innerHTML = 'Ops! Parece que voce está offline';
-    div.className = 'offlinePage';
- 
-    document.body.appendChild(div);
+  var div = document.createElement('div');
+  div.id = 'offline';
+  div.innerHTML = 'Ops! Parece que voce está offline';
+  div.className = 'offlinePage';
+
+  document.body.appendChild(div);
 }, false);
 
 document.addEventListener('DOMContentLoaded', function() {
-    var div = document.createElement('h1');
-    div.innerHTML = 'Ops! Parece que voce está offline';
-    div.className = 'text';
- 
-    document.getElementById("offline").appendChild(h1);
+  var div = document.createElement('h1');
+  div.innerHTML = 'Ops! Parece que voce está offline';
+  div.className = 'text';
+
+  document.getElementById("offline").appendChild(h1);
 }, false);
 
 let pag1 = document.getElementById("bottomop1")
@@ -57,7 +65,7 @@ function select1() {
   document.getElementById("emails").style.display = "none"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("transition-animation").style.left = "4.6%"
 }
 
@@ -74,7 +82,7 @@ function select2() {
   document.getElementById("emails").style.display = "none"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("transition-animation").style.left = "27.4%"
 }
 
@@ -91,7 +99,7 @@ function select3() {
   document.getElementById("emails").style.display = "none"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("transition-animation").style.left = "50.3%"
 }
 
@@ -108,13 +116,13 @@ function select4() {
   document.getElementById("bottomSvg6").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("bottomop1").style.display = "none"
   document.getElementById("bottomop2").style.display = "none"
   document.getElementById("bottomop3").style.display = "none"
   document.getElementById("bottomop4").style.display = "none"
   document.getElementById("containment-remaining-buttons").style.display = "block"
-  
+
   document.getElementById("transition-animation").style.left = "27.5%"
 }
 
@@ -123,7 +131,7 @@ function backselect() {
   document.getElementById("notations").style.display = "none"
   document.getElementById("websites").style.display = "none"
   document.getElementById("emails").style.display = "none"
-  
+
   document.getElementById("bottomSvg1").style.fill = "var(--second-page-selector-color)"
   document.getElementById("bottomSvg2").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg3").style.fill = "var(--page-selector-icon-color)"
@@ -132,13 +140,13 @@ function backselect() {
   document.getElementById("bottomSvg6").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("bottomop1").style.display = "inline"
   document.getElementById("bottomop2").style.display = "inline"
   document.getElementById("bottomop3").style.display = "inline"
   document.getElementById("bottomop4").style.display = "inline"
   document.getElementById("containment-remaining-buttons").style.display = "none"
-  
+
   document.getElementById("transition-animation").style.left = "4.6%"
 }
 
@@ -155,7 +163,7 @@ function select5() {
   document.getElementById("bottomSvg6").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("transition-animation").style.left = "27.5%"
 }
 
@@ -165,7 +173,7 @@ function select6() {
   document.getElementById("websites").style.display = "none"
   document.getElementById("emails").style.display = "none"
   document.getElementById("groups").style.display = "block"
-  
+
   document.getElementById("bottomSvg1").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg2").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg3").style.fill = "var(--page-selector-icon-color)"
@@ -173,7 +181,7 @@ function select6() {
   document.getElementById("bottomSvg5").style.fill = "var(--second-page-selector-color)"
   document.getElementById("bottomSvg6").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("evidences").style.display = "none"
-  
+
   document.getElementById("transition-animation").style.left = "50.3%"
 }
 
@@ -184,13 +192,13 @@ function select7() {
   document.getElementById("emails").style.display = "none"
   document.getElementById("groups").style.display = "none"
   document.getElementById("evidences").style.display = "block"
-  
+
   document.getElementById("bottomSvg1").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg2").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg3").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg4").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg5").style.fill = "var(--page-selector-icon-color)"
   document.getElementById("bottomSvg6").style.fill = "var(--second-page-selector-color)"
-  
+
   document.getElementById("transition-animation").style.left = "74.1%"
 }

@@ -9,15 +9,6 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-window.addEventListener('online', () => {
-    document.getElementById("home").style.display = "block"
-    document.getElementById("offline").style.display = "none"
-});
-window.addEventListener('offline', () => {
-    document.getElementById("home").style.display = "none"
-    document.getElementById("offline").style.display = "block"
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     var div = document.createElement('div');
     div.id = 'offline';

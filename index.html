@@ -32,6 +32,62 @@
     --second-page-selector-color: #fff;
   }
 
+    #home .bottom-menu-containment {
+      position: fixed;
+      top: auto;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      display: flex;
+    }
+
+    #home .bottom-menu {
+      background: rgba(255,255,255) /*rgba(255,255,255,0.284)*/;
+      backdrop-filter: blur(15px);
+      width: 90%;
+      text-align: center;
+      padding: 10px 0 10px 0;
+      margin: auto;
+      border-radius: 1.2em;
+      box-shadow: 2px 2px 20px rgba(255,255,255,0.047);
+    }
+
+    #home .bottom-menu .options {
+      display: inline;
+      width: 22%;
+      padding: 10px;
+      border: none;
+      color: rgba(255,255,255,0.707);
+      background: 0;
+      font-size: 23px;
+      border-radius: 8em;
+    }
+
+    #home .bottom-menu .transition-animation {
+      position: absolute;
+      top: 15%;
+      left: 4.8%;
+      padding: 8px;
+      width: 22%;
+      background: var(--page-selector-color);
+      color: var(--page-selector-color);
+      font-size: 23px;
+      border-radius: .9em;
+      border: 0;
+      transition: left 0.4s;
+      z-index: -1;
+      scroll-behavior: smooth;
+    }
+
+    #home .bottom-menu .op1 {
+      color: #000000;
+    }
+
+    #home .bottom-menu .op4 {
+      color: #ffffff;
+    }
+
     #containment-remaining-buttons {
       display: none;
 

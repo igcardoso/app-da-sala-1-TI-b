@@ -11,8 +11,17 @@
   "shortcuts": [
   {
     "name": "Mooodle",
+    "short_name": "Mooodle",
     "url": "https://ava.ifba.edu.br/course/view.php?id=4940",
-    "description": "Abra os sites importantes"
+    "description": "Abra os sites importantes",
+    "icons": [
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    }
+    ]
   },
   {
     "name": "Suap",

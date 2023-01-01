@@ -25,11 +25,29 @@
   },
   {
     "name": "Suap",
-    "url": "https://suap.ifba.edu.br/accounts/login/?next=/"
+    "short_name": "Suap",
+    "url": "https://suap.ifba.edu.br/accounts/login/?next=/",
+    "icons": [
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    }
+    ]
   },
   {
     "name": "Classroom",
-    "url": "https://classroom.google.com/u/0/"
+    "short_name": "Classroom",
+    "url": "https://classroom.google.com/u/0/",
+    "icons": [
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    }
+    ]
   }
 ],
   "icons": [

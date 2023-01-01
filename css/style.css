@@ -20,6 +20,7 @@
  z-index: 200;
  text-align: center;
  padding-top: 50px;
+ display: none;
 }
 
 .offlinePage .text {

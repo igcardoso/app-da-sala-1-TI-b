@@ -29,8 +29,6 @@ window.addEventListener('offline', () => {
   document.getElementById("offline").style.display = "block"
 });
 
-document.getElementById("offline").innerHTML = "Ops! Parece que você está offline"
-
 let pag1 = document.getElementById("bottomop1")
 let pag2 = document.getElementById("bottomop2")
 let pag3 = document.getElementById("bottomop3")

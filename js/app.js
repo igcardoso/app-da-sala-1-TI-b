@@ -29,14 +29,7 @@ window.addEventListener('offline', () => {
   document.getElementById("offline").style.display = "block"
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  var div = document.createElement('div');
-  div.id = 'offline';
-  div.innerHTML = 'Ops! Parece que voce está offline';
-  div.className = 'offlinePage';
-
-  document.body.appendChild(div);
-}, false);
+document.getElementById("offline").innerHTML = "Ops! Parece que você está offline"
 
 let pag1 = document.getElementById("bottomop1")
 let pag2 = document.getElementById("bottomop2")

@@ -202,7 +202,7 @@ body {
 
 #schedules .containment-gradient .gradient {
   background: rgba(0,0,0,);
-  background-image: linear-gradient(to bottom,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) .2%, #edefee96 100%);
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) .2%, #EDEFEE 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -213,7 +213,7 @@ body {
 
 #schedules .containment-gradient .gradient2 {
   background: rgba(0,0,0,);
-  background-image: linear-gradient(to left,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 2%, #edefee96 100%);
+  background-image: linear-gradient(to left,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 2%, #EDEFEE 100%);
   position: absolute;
   top: 0;
   left: 0;

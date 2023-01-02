@@ -328,65 +328,24 @@ function adicionaCardATela(informacao, id) {
   header.classList.add('cards');
   
   let container = document.createElement("div");
-  header.classList.add('container');
+  co.classList.add('container');
+  
+  let user = document.createElement("div");
+  user.classList.add('topEl user');
   // ===================================
 
   /**
   * CONTENT DO CARD
   */
-  let content = document.createElement("p");
-  content.classList.add('card-text');
-  content.innerText = informacao.idade + ' anos.';
-  // ===================================
-
-  /**
-  * BOTÕES DO CARD
-  */
-  let inner = document.createElement("div");
-  inner.classList.add('row')
-  // Botão adicionar
-  let button_add = document.createElement("button");
-  button_add.classList.add('btn', 'btn-link', 'col-3');
-  button_add.setAttribute('onclick', "curtir('" + id + "')");
-  button_add.innerText = '+';
-  inner.appendChild(button_add);
-
-  // Contador de curtidas
-  let counter = document.createElement("span");
-  counter.innerHTML = informacao.curtidas;
-  counter.classList.add('col-3', 'text-center', 'count-number');
-  inner.appendChild(counter);
-
-  // Botão de subtrair
-  let button_sub = document.createElement("button");
-  button_sub.classList.add('btn', 'btn-link', 'col-3');
-  button_sub.setAttribute('onclick', "descurtir('" + id + "')");
-  button_sub.innerText = '-';
-  inner.appendChild(button_sub);
-  // ===================================
-
-  // Botão de excluir
-  let button_del = document.createElement("button");
-  button_del.classList.add('btn', 'btn-danger', 'col-3');
-  button_del.setAttribute('onclick', "deletar('" + id + "')");
-  button_del.innerText = 'x';
-  inner.appendChild(button_del);
-  // ===================================
-
-  /**
-  * CARD
-  */
-  let card = document.createElement("div");
-  card.classList.add('card');
-  card.id = id;
-  let card_body = document.createElement("div");
-  card_body.classList.add('card-body');
+  let imgUser = document.createElement("img");
+  imgUser.with = "100%"
+  imgUser.src = informacao.idade + ' anos.';
   // ===================================
 
   // popula card
-  card_body.appendChild(header);
-  card_body.appendChild(content);
-  card_body.appendChild(inner);
+  header.appendChild(container);
+  container.appendChild(user);
+  user.appendChild(imgUser);
   card.appendChild(card_body);
 
   // insere no container

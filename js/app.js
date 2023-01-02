@@ -198,6 +198,7 @@ function select7() {
   document.getElementById("transition-animation").style.left = "74.1%"
 }
 
+let CARD_CONTAINER = document.getElementById("containment-card-notations")
 
 document.addEventListener("DOMContentLoaded", function () {
   /**
@@ -346,7 +347,6 @@ function adicionaCardATela(informacao, id) {
   header.appendChild(container);
   container.appendChild(user);
   user.appendChild(imgUser);
-  card.appendChild(card_body);
 
   // insere no container
   CARD_CONTAINER.appendChild(card);

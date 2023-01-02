@@ -325,7 +325,6 @@ function adicionaCardATela(informacao, id) {
   * HEADER DO CARD
   */
   let header = document.createElement("div");
-  header.innerText = informacao.nome;
   header.classList.add('cards');
   // ===================================
 

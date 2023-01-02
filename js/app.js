@@ -326,6 +326,9 @@ function adicionaCardATela(informacao, id) {
   */
   let header = document.createElement("div");
   header.classList.add('cards');
+  
+  let container = document.createElement("div");
+  header.classList.add('container');
   // ===================================
 
   /**

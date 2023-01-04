@@ -20,13 +20,8 @@ window.addEventListener("beforeinstallprompt", function(event) {
   });
 });
 */
-window.addEventListener('online', () => {
-  document.getElementById("home").style.display = "block"
-  document.getElementById("offline").style.display = "none"
-});
 window.addEventListener('offline', () => {
-  document.getElementById("home").style.display = "none"
-  document.getElementById("offline").style.display = "block"
+  window.location = "cached_pages/index.html"
 });
 
 let pag1 = document.getElementById("bottomop1")

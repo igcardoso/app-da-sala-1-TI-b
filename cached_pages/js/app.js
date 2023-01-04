@@ -22,7 +22,7 @@ window.addEventListener("beforeinstallprompt", function(event) {
 });
 */
 window.addEventListener('online', () => {
-   window.location = "../../index.html"
+   window.location = "../index.html"
 });
 
 let pag1 = document.getElementById("bottomop1")

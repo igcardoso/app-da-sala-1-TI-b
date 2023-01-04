@@ -21,7 +21,7 @@ window.addEventListener("beforeinstallprompt", function(event) {
 });
 */
 window.addEventListener('offline', () => {
-  window.location = "offline.html"
+  window.location = "cached_local_page.html"
 });
 
 let pag1 = document.getElementById("bottomop1")

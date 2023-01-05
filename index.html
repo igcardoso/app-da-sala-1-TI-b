@@ -300,32 +300,6 @@
 
     const db = firebase.firestore()
 
-    const form = document.getElementById("form")
-    /*
-    form.addEventListener('submit', (e)=>{
-      e.preventDefault();
-      let texto = document.querySelector('[name=texto]').value;
-      db.collection('teste').add({
-        texto: texto
-      })
-      alert("inserido com sucesso")
-      form.reset()
-    })
-    */
-    form.addEventListener('submit', (e)=> {
-      e.preventDefault();
-      let texto = document.querySelector('[name=texto]').value;
-      db.collection('comunicados').doc('card').update({
-        contact: texto
-      });
-      alert("inserido com sucesso")
-      form.reset()
-    })
-
-    db.collection('comunicados').doc('card').onSnapshot((doc)=> {
-      document.querySelector(".idEspecifico").innerHTML = doc.data().contact
-    })
-
     db.collection('comunicados').onSnapshot((data)=> {
       let list = document.querySelector('.list');
       list.innerHTML = '';

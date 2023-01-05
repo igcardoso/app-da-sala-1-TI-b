@@ -3,7 +3,6 @@ db.collection('teste').doc('M0UiPOo6Yta4FAnTZ17S').get()
   document.querySelector("#message").innerHTML = doc.data().texto
 })
 
-
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker

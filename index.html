@@ -302,7 +302,7 @@
 
     db.collection('comunicados').onSnapshot((data)=> {
       let list = document.querySelector('.list');
-      list.innerHTML = '';
+      cards.innerHTML = '';
       data.docs.map(doc => {
         console.log("objeto:", doc.data());
         var cards = document.createElement("div");

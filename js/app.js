@@ -1,3 +1,11 @@
+db.collection('comunicados').doc('card').onSnapshot((doc)=> {
+  document.querySelector("#message").innerHTML = doc.data().message
+})
+
+db.collection('comunicados').doc('card').onSnapshot((doc)=> {
+  document.querySelector("#photograph").src = doc.data().photograph 
+})
+
 db.collection('teste').doc('M0UiPOo6Yta4FAnTZ17S').onSnapshot((doc)=> {
   document.querySelector("#message").innerHTML = doc.data().texto
 })

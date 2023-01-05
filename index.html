@@ -19,6 +19,12 @@
   <link rel="apple-touch-icon" href="images/icons/icon-512x512.png">
   <meta name="apple-mobile-web-app-status-bar" content="#EDEFEE">
   <meta name="theme-color" content="#EDEFEE">
+  <script>
+    var novo = document.createElement('script');
+    novo.setAttribute('type', 'text/javascript');
+    novo.setAttribute('src', "js/app.js");
+    document.getElementsByTagName('head')[0].appendChild(novo);
+  </script>
   <title>Infinix UI</title>
   <!-- app photo guia -->
   <link rel="icon" href="images/icons/icon-512x512.png" type="image/png">
@@ -218,7 +224,7 @@
             </div>
           </div>
           <p id="message" class="message">
-           
+
           </p>
           <div class="adms">
             <img class="img1" src="images/IMG-20220930-WA0047.jpg" />
@@ -317,11 +323,11 @@
       timestampsInSnapshots: true,
 
     });
-    
+
     const db = firebase.firestore()
-    
+
     const form = document.getElementById("form")
-    
+
   </script>
   <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>

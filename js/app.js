@@ -1,5 +1,5 @@
 db.collection('teste').doc('M0UiPOo6Yta4FAnTZ17S').onSnapshot((doc)=> {
-  document.querySelector(".idEspecifico").innerHTML = doc.data().texto
+  document.querySelector("#message").innerHTML = doc.data().texto
 })
 
 

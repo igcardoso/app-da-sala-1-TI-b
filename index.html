@@ -393,9 +393,7 @@
     }
 
     // *******************************
-    var notice = document.querySelector("body");
-    notice.style.background = "red";
-    notice.appendChild(cards);
+    document.querySelector("#containment-card-notations").appendChild(cards);
     cards.appendChild(container);
     cards.appendChild(message);
     cards.appendChild(adms);

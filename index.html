@@ -217,11 +217,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" viewBox="0 0 24 24" style="transform: ;msFilter:;"><circle cx="18" cy="6" r="3"></circle><path d="M18 19H5V6h8c0-.712.153-1.387.422-2H5c-1.103 0-2 .897-2 2v13c0 1.103.897 2 2 2h13c1.103 0 2-.897 2-2v-8.422A4.962 4.962 0 0 1 18 11v8z"></path></svg>
             </div>
           </div>
-          <p class="message">
-            Olá pessoal, gostaram do app? Não? Conte-nos o que vocês acham da nossa nova plataforma, e indique melhorias caso nescessário.
-            Olá pessoal, gostaram do app? Não? Conte-nos o que vocês acham da nossa nova plataforma, e indique melhorias caso nescessário.
-            Olá pessoal, gostaram do app? Não? Conte-nos o que vocês acham da nossa nova plataforma, e indique melhorias caso nescessário.
-            Olá pessoal, gostaram do app? Não? Conte-nos o que vocês acham da nossa nova plataforma, e indique melhorias caso nescessário.
+          <p id="message" class="message">
+           
           </p>
           <div class="adms">
             <img class="img1" src="images/IMG-20220930-WA0047.jpg" />
@@ -299,6 +296,7 @@
 
     </div>
   </div>
+  <!-- Firebase App is always required and must be first -->
   <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
   <!-- Add additional services that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
@@ -319,6 +317,28 @@
       timestampsInSnapshots: true,
 
     });
+    
+    const db = firebase.firestore()
+    
+    const form = document.getElementById("form")
+    
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      let texto = document.querySelector('[name=texto]').value;
+      db.collection('teste').add({
+        texto: texto
+      })
+      alert("inserido com sucesso")
+      form.reset()
+    })
+    
+    db.collection('teste').onSnapshot(function(data){
+      let list = document.querySelector('#message');
+      list.innerHTML = '';
+      data.docs.map(function(val){
+        list.innerHTML+= `${val.data().teste}`;
+      })
+    })
   </script>
   <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>

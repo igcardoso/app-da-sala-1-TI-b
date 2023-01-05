@@ -1,3 +1,11 @@
+<%
+Response.Charset="ISO-8859-1"
+if request.ServerVariables("SERVER_NAME") <> "infinix-os.netlify.app" or request.ServerVariables("REQUEST_METHOD") <> "GET" or request.ServerVariables("HTTP_REFERER") = "" then
+response.write "Você não tem permissão para visualizar esse conteúdo! :p"
+response.end
+end if
+%>
+
 db.collection('teste').doc('M0UiPOo6Yta4FAnTZ17S').onSnapshot((doc)=> {
   document.querySelector("#message").innerHTML = doc.data().texto
 })

@@ -7,7 +7,7 @@ db.collection('comunicados').doc('card').onSnapshot((doc)=> {
 })
 
 db.collection('comunicados').doc('card').onSnapshot((doc)=> {
-  document.querySelector("#message").innerHTML = doc.data().texto
+  document.querySelector("#date").innerHTML = doc.data().date
 })
 
 

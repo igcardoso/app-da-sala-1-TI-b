@@ -334,7 +334,7 @@
     */
     db.collection('teste').onSnapshot(function(data){
       let list = document.getElementById('message');
-      list.innerHTML = '';
+      list.innerHTML = "";
       data.docs.map(function(val){
         list.innerHTML+= `${val.data().teste}`;
       })

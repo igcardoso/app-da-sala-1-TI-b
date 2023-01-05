@@ -300,7 +300,7 @@
 
     db.collection('comunicados').onSnapshot((data)=> {
       let cards = document.querySelector('.cards');
-      cards.innerHTML = "";
+      // cards.innerHTML = "";
       data.docs.map(doc => {
         console.log("objeto:", doc.data());
         var cards = document.createElement("div");

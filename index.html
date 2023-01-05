@@ -321,7 +321,7 @@
     const db = firebase.firestore()
     
     const form = document.getElementById("form")
-    
+    /*
     form.addEventListener('submit', (e)=>{
       e.preventDefault();
       let texto = document.querySelector('[name=texto]').value;
@@ -331,7 +331,7 @@
       alert("inserido com sucesso")
       form.reset()
     })
-    
+    */
     db.collection('teste').onSnapshot(function(data){
       let list = document.getElementById('message');
       list.innerHTML = '';

@@ -321,24 +321,7 @@
     const db = firebase.firestore()
     
     const form = document.getElementById("form")
-    /*
-    form.addEventListener('submit', (e)=>{
-      e.preventDefault();
-      let texto = document.querySelector('[name=texto]').value;
-      db.collection('teste').add({
-        texto: texto
-      })
-      alert("inserido com sucesso")
-      form.reset()
-    })
-    */
-    db.collection('teste').onSnapshot(function(data){
-      let list = document.getElementById('message');
-      list.innerHTML = "";
-      data.docs.map(function(val){
-        list.innerHTML+= `${val.data().teste}`;
-      })
-    })
+    
   </script>
   <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>

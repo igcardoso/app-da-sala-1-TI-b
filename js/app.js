@@ -10,6 +10,10 @@ db.collection('comunicados').doc('card').onSnapshot((doc)=> {
   document.querySelector("#date").innerHTML = doc.data().date
 })
 
+db.collection('comunicados').doc('card').onSnapshot((doc)=> {
+  document.querySelector("#name").innerHTML = doc.data().name
+})
+
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {

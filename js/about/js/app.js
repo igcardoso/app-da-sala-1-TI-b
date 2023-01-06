@@ -1,5 +1,5 @@
 var config = {
-      apiKey: nsBw,
+      apiKey: "AIzaSyAfYYbhdqzTZnD4gaPjOfYC1F-m6SNgiLg",
       authDomain: "infinix-d200d.firebaseapp.com",
       projectId: "infinix-d200d",
       storageBucket: "infinix-d200d.appspot.com",

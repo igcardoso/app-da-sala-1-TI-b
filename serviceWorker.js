@@ -1,9 +1,9 @@
 const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [
   "/",
-  "/index.html",
-  "/css/style.css",
-  "/js/app.js",
+  "/cached_local_page.html",
+  //"/css/style.css",
+  //"/js/app.js",
   "/images/12 Sem Título_20230101152253.png",
   "/images/20221224203650.png",
   "/images/IMG-20220930-WA0047.jpg",

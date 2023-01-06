@@ -1,3 +1,8 @@
+var nsBw = hWhsNwunwoqN + bwbhNuSbhBHa + vcsukBjsJbsbB;
+
+var hWhsNwunwoqN = AIzaSyAfYYbhdqz
+var bwbhNuSbhBHa = TZnD4gaPjOfYC1F
+var vcsukBjsJbsbB = -m6SNgiLg
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {

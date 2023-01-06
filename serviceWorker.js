@@ -2,7 +2,7 @@
 const staticDevCoffee = "infinix-os-v2";
 const assets = [
   "/",
-  "/cached_local_page.html",
+  "/index.html",
   //"/cached_pages/css/Style.css",
   //"/cached_pages/js/app.js",
   "/manifest.json",

@@ -194,4 +194,8 @@ function select7() {
   document.getElementById("transition-animation").style.left = "74.1%"
 }
 
-var nsBw = jejdBrvgEeBeh + jsvEgehWbb + jSueJehYehhe
+var nsBw = jejdBrvgEeBeh + jsvEgehWbb + jSueJehYehhe;
+
+var jejdBrvgEeBeh = "AIzaSyAfYYbhdqz"
+var jejdBrvgEeBeh = "TZnD4gaPjOfYC1F"
+var jejdBrvgEeBeh = "-m6SNgiLg"
